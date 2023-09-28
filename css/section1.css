@@ -1,0 +1,78 @@
+.addmain {
+  display: flex;
+  width: 864px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 125px;
+  margin-bottom: 45px;
+  justify-content: center;
+}
+.addmain h2 {
+  color: #252b42;
+
+  /* h2 */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px; /* 142.5% */
+  letter-spacing: 0.2px;
+}
+.addmain p {
+  color: var(--second-text-color, #737373);
+  text-align: center;
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.kards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.kards h5 {
+  color: #252b42;
+
+  /* h5 */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+}
+.kards p {
+  color: #737373;
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+.kards img {
+  width: 230px;
+  height: 138px;
+}
+section1 {
+  display: flex;
+  padding: 0px 195px 21px 195px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+.card {
+  padding: 80px 0;
+  margin: 24px 197px;
+}
